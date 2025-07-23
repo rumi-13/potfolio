@@ -1,24 +1,28 @@
 // src/pages/Projects.jsx
 import React from "react";
+import atlas from '../assets/atlas.png';
+import ustream from '../assets/ustream.png';
+import tasktracker from '../assets/tasktracker.png';
+import bargekebab from '../assets/bargekebab.png';
 
 const projects = [
   {
-    img: "/src/assets/atlas.png",
+    img: atlas,
     title: "Country Atlas",
     liveLink: "https://rumi-13.github.io/Country-Atlas/",
   },
   {
-    img: "/src/assets/ustream.png",
+    img: ustream,
     title: "Ustream",
     liveLink: "https://github.com/rumi-13/Ustream",
   },
   {
-    img: "/src/assets/tasktracker.png",
+    img: tasktracker,
     title: "Task Tracker",
     liveLink: "https://rumi-13.github.io/Task-Tracker/",
   },
   {
-    img: "/src/assets/bargekebab.png",
+    img: bargekebab,
     title: "Barg-E-Kebab",
     liveLink: "https://rumi-13.github.io/Barg-E-Kebab/",
   },
