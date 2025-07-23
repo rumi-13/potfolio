@@ -1,5 +1,5 @@
 
-# 🧑‍💻  Developer 
+# 🧑‍💻 Potfolio
 Welcome to my personal portfolio website, built with **React**, **Tailwind CSS**, and modern UI practices. This site showcases my journey, projects, skills, and contact information — all in a clean, responsive, and dark-mode-ready layout.
 
 ---
