@@ -1,12 +1,44 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🧑‍💻  Developer 
+Welcome to my personal portfolio website, built with **React**, **Tailwind CSS**, and modern UI practices. This site showcases my journey, projects, skills, and contact information — all in a clean, responsive, and dark-mode-ready layout.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **React** – Frontend framework
+- **Tailwind CSS** – Utility-first styling
+- **React Icons** – Iconography
+- **React Router DOM** – Page routing
+- **Vite** – Build tool for lightning-fast development
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Features
+
+- ✅ Responsive design across devices
+- 🌗 Dark Mode support
+- 🧠 Enhanced UI
+- 🧩 Projects showcase 
+
+---
+
+
+## 📬 Contact
+
+Feel free to connect:
+
+* 📧 Email: \[[asgar.raza013@gmail.com](mailto:your_email@example.com)]
+
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Credits
+
+Crafted with love and `code` by Asgar Rashid 💻✨
+
