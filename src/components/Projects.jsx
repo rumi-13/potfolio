@@ -50,7 +50,7 @@ const Projects = () => {
               href={project.liveLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block text-sm bg-primary text-black dar:text-white px-4 py-1 rounded-full hover:bg-primary/90 transition"
+              className="inline-block text-sm bg-primary text-black dark:text-white px-4 py-1 rounded-full hover:bg-primary/90 transition"
             >
               Link →
             </a>
