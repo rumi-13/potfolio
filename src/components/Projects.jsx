@@ -14,7 +14,7 @@ const projects = [
   {
     img: ustream,
     title: "Ustream",
-    liveLink: "https://github.com/rumi-13/Ustream",
+    liveLink: "https://ustream-six.vercel.app/",
   },
   {
     img: tasktracker,
