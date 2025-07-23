@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FiMoon, FiMenu, FiX } from "react-icons/fi";
 import { useDarkMode } from "../DarkModeContext";
-
+import logo from "../assets/logo.png"
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const navItems = ["Home", "About", "Skills", "Education", "Contact"];
@@ -15,7 +15,7 @@ const Navbar = () => {
           {/* Logo image */}
           <div className="flex items-center">
             <img
-              src="/src/assets/logo.png"
+              src= {logo}
               alt="logo"
               className="h-12 w-auto sm:h-14 lg:h-16 transition-all duration-200"
             />

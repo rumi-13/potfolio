@@ -1,7 +1,5 @@
-// src/pages/About.jsx
-import React from "react";
 import { FaChalkboardTeacher, FaFeather } from "react-icons/fa";
-
+import heroimg from "../assets/heroimg.png"
 const About = () => {
   return (
     <section
@@ -13,7 +11,7 @@ const About = () => {
         
         <div className="flex-shrink-0">
           <img
-            src="/src/assets/heroimg.png"
+            src= {heroimg}
             alt="Rumi Portrait"
             className="w-64 h-64 object-cover rounded-full shadow-lg ring-4 ring-purple-400 dark:ring-purple-500"
           />
