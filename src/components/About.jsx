@@ -13,7 +13,7 @@ const About = () => {
         
         <div className="flex-shrink-0">
           <img
-            src="/src/assets/heroImg.jpg"
+            src="/src/assets/heroimg.png"
             alt="Rumi Portrait"
             className="w-64 h-64 object-cover rounded-full shadow-lg ring-4 ring-purple-400 dark:ring-purple-500"
           />

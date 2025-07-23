@@ -39,7 +39,7 @@ const Hero = () => {
             {/* Profile Image Container */}
             <div className="relative group">
               <img
-                src="/src/assets/heroImg.jpg"
+                src="/src/assets/heroimg.png"
                 alt="Henry Bergson"
                 className="w-72 h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-96 object-cover rounded-full border-4 border-blue-200 dark:border-yellow-300 shadow-lg dark:shadow-xl ring-4 ring-blue-100 dark:ring-yellow-200 transition-all duration-300 group-hover:scale-105"
               />
