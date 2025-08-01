@@ -1,9 +1,7 @@
-// src/pages/Projects.jsx
-import React from "react";
 import atlas from "../assets/atlas.png";
 import ustream from "../assets/ustream.png";
 import tasktracker from "../assets/tasktracker.png";
-import bargekebab from "../assets/bargekebab.png";
+
 import spiceandscroll from "../assets/spiceandscroll.png";
 const projects = [
   {
