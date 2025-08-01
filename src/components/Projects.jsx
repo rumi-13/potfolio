@@ -1,10 +1,10 @@
 // src/pages/Projects.jsx
 import React from "react";
-import atlas from '../assets/atlas.png';
-import ustream from '../assets/ustream.png';
-import tasktracker from '../assets/tasktracker.png';
-import bargekebab from '../assets/bargekebab.png';
-
+import atlas from "../assets/atlas.png";
+import ustream from "../assets/ustream.png";
+import tasktracker from "../assets/tasktracker.png";
+import bargekebab from "../assets/bargekebab.png";
+import spiceandscroll from "../assets/spiceandscroll.png";
 const projects = [
   {
     img: atlas,
@@ -14,17 +14,17 @@ const projects = [
   {
     img: ustream,
     title: "Ustream",
-    liveLink: "https://ustream-six.vercel.app/",
+    liveLink: "https://stream-six.vercel.app/",
+  },
+  {
+    img: spiceandscroll,
+    title: "Spice & Scroll",
+    liveLink: "https://spice-and-scroll.vercel.app/",
   },
   {
     img: tasktracker,
     title: "Task Tracker",
     liveLink: "https://rumi-13.github.io/Task-Tracker/",
-  },
-  {
-    img: bargekebab,
-    title: "Barg-E-Kebab",
-    liveLink: "https://rumi-13.github.io/Barg-E-Kebab/",
   },
 ];
 
