@@ -12,7 +12,7 @@ const projects = [
   {
     img: ustream,
     title: "Ustream",
-    liveLink: "https://stream-six.vercel.app/",
+    liveLink: "https://ustream-six.vercel.app/",
   },
   {
     img: spiceandscroll,
