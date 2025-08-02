@@ -1,13 +1,13 @@
 import SkillCard from "../UI/SkillCard";
 
 const skillsData = [
-  { skillName: "HTML", iconSrc: "/html.png" },
-  { skillName: "CSS", iconSrc: "/css.png" },
-  { skillName: "Tailwind", iconSrc: "/tailwind.png" },
-  { skillName: "JavaScript", iconSrc: "/javascript.png" },
-  { skillName: "React.js", iconSrc: "/react.png" },
-  { skillName: "Git & GitHub", iconSrc: "/github.png" },
-  { skillName: "Python", iconSrc: "/python.png" },
+  { skillName: "HTML", iconSrc: "/html5.svg" },
+  { skillName: "CSS", iconSrc: "/css3.svg" },
+  { skillName: "Tailwind", iconSrc: "/tailwind.svg" },
+  { skillName: "JavaScript", iconSrc: "/javascript.svg" },
+  { skillName: "React.js", iconSrc: "/reactjs.svg" },
+  { skillName: "Git & GitHub", iconSrc: "/github.svg" },
+  { skillName: "Python", iconSrc: "/python.svg" },
 ];
 
 const Skills = () => {
