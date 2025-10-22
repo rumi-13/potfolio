@@ -1,5 +1,6 @@
 import { FaChalkboardTeacher, FaFeather } from "react-icons/fa";
-import heroimg from "../assets/heroimg.png"
+import heroimg from "../assets/sticker.webp";
+
 const About = () => {
   return (
     <section
@@ -8,13 +9,21 @@ const About = () => {
     >
       {/* Who Am I Section */}
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
-        
-        <div className="flex-shrink-0">
-          <img
-            src= {heroimg}
-            alt="Rumi Portrait"
-            className="w-64 h-64 object-cover rounded-full shadow-lg ring-4 ring-purple-400 dark:ring-purple-500"
-          />
+        {/* Left: Image Section */}
+        <div className="flex-shrink-0 relative flex justify-center md:justify-start">
+          {/* Outer glowing ring */}
+          <div className="absolute inset-0 flex justify-center items-center">
+            <div className="w-72 h-72 rounded-full ring-4 ring-purple-400 dark:ring-purple-500 animate-pulse"></div>
+          </div>
+
+          {/* Profile Image */}
+          <div className="relative w-64 h-64 rounded-full overflow-hidden shadow-lg ring-4 ring-purple-300 dark:ring-purple-400">
+            <img
+              src={heroimg}
+              alt="Asgar Rashid Portrait"
+              className="w-full h-full relative pl-8 top-3 object-cover transition-transform duration-300 hover:scale-105"
+            />
+          </div>
         </div>
 
         {/* Right: Text */}
@@ -22,14 +31,16 @@ const About = () => {
           <h2 className="text-4xl font-[Poppins] font-bold text-center md:text-left">
             Who Am I?
           </h2>
-          <p className="text-base  font-[Poppins] leading-relaxed text-slate-700 dark:text-slate-300  ">
+          <p className="text-base font-[Poppins] leading-relaxed text-slate-700 dark:text-slate-300">
             I'm Asgar Rashid — a curious soul from Anantnag, Jammu & Kashmir,
-            part developer, part poet, forever a thinker. My journey started
-            with a basic HTML tag and grew into building interactive apps with
-            React. Outside of coding, I love reading and writing. I've had my
-            poems featured on Rekhta, and I'm deeply interested in philosophy. I
-            enjoy creating things — whether it's a user interface or a poem —
-            and I'm always trying to find meaning in both code and ideas.
+            part developer, part poet, and forever a thinker. What began with a
+            simple HTML tag has grown into building full-stack applications with
+            the MERN stack. I'm currently deepening my understanding of backend
+            development to create seamless
+            experiences. Beyond code, I love reading, writing, and exploring
+            philosophy. My poems have been featured on Rekhta, and I continue to
+            find meaning in both crafting ideas and writing code — two different
+            languages that, for me, express the same curiosity about the world.
           </p>
         </div>
       </div>
@@ -48,8 +59,7 @@ const About = () => {
               <div>
                 <h3 className="text-xl font-semibold">Teacher</h3>
                 <p className="text-sm text-slate-500 dark:text-slate-400">
-                  Sir Syed Memorial Public School, Bijbehara <br /> ( 2021 -
-                  2022 )
+                  Sir Syed Memorial Public School, Bijbehara <br /> (2021–2022)
                 </p>
               </div>
             </div>
@@ -75,8 +85,9 @@ const About = () => {
             <p className="text-slate-600 dark:text-slate-300 text-base leading-relaxed">
               I write Urdu poetry that walks two paths — one woven with love and
               longing; the other rooted in resistance, pride, and devotion to my
-              motherland "Mouj Kasheer 🫀". Featured on Rekhta — the world's largest
-              Urdu poetry platform <br />
+              motherland “Mouj Kasheer 🫀”. Featured on Rekhta — the world's
+              largest Urdu poetry platform.
+              <br />
               <a
                 href="https://www.rekhta.org/poets/muhammad-asgar-rumi"
                 target="_blank"

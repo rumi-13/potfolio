@@ -5,7 +5,10 @@ const skillsData = [
   { skillName: "CSS", iconSrc: "/css3.svg" },
   { skillName: "Tailwind", iconSrc: "/tailwind.svg" },
   { skillName: "JavaScript", iconSrc: "/javascript.svg" },
+  { skillName: "MongoDb", iconSrc: "/mongodb.svg" },
+  { skillName: "Express.js", iconSrc: "/express.svg" },
   { skillName: "React.js", iconSrc: "/reactjs.svg" },
+  { skillName: "Node.js", iconSrc: "/nodejs.svg" },
   { skillName: "Git & GitHub", iconSrc: "/github.svg" },
   { skillName: "Python", iconSrc: "/python.svg" },
 ];

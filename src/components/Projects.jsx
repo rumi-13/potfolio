@@ -2,7 +2,6 @@ import atlas from "../assets/atlas.png";
 import ustream from "../assets/ustream.png";
 import tasktracker from "../assets/tasktracker.png";
 
-import spiceandscroll from "../assets/spiceandscroll.png";
 const projects = [
   {
     img: atlas,
@@ -13,11 +12,6 @@ const projects = [
     img: ustream,
     title: "Ustream",
     liveLink: "https://ustream-six.vercel.app/",
-  },
-  {
-    img: spiceandscroll,
-    title: "Spice & Scroll",
-    liveLink: "https://spice-and-scroll.vercel.app/",
   },
   {
     img: tasktracker,
