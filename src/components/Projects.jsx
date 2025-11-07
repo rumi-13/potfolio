@@ -1,8 +1,14 @@
 import atlas from "../assets/atlas.png";
 import ustream from "../assets/ustream.png";
 import tasktracker from "../assets/tasktracker.png";
+import homigo from "../assets/homigo.png"
 
 const projects = [
+   {
+    img: homigo,
+    title: "Homigo",
+    liveLink: "https://homigo-386u.onrender.com/",
+  },
   {
     img: atlas,
     title: "Country Atlas",
