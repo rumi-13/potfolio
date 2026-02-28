@@ -28,7 +28,7 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex justify-center text-black gap-4">
             <a
-              href="mailto:asgar.raza013@gmail.com"
+              href="mailto:asgar.rashid019@gmail.com"
               className="p-3 bg-slate-200 dark:bg-slate-400 rounded-full hover:bg-slate-300 dark:hover:bg-slate-300 transition"
               aria-label="Email"
               target="_blank"
