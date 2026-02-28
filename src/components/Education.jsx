@@ -7,7 +7,7 @@ const educationData = [
   {
     title: "School",
     institution: "Harvard English Medium School, Bijbehara, Anantnag",
-    duration: "Passed out in 2018",
+    duration: "Batch 2018",
     description: (
       <>
         Built strong foundational knowledge and developed early curiosity for science.
@@ -34,7 +34,7 @@ const educationData = [
     title: "University",
     institution: "University of Kashmir",
     duration: "2022 – Present",
-    description: "Pursuing Bachelor of Computer Applications (Hons).",
+    description: "Pursuing Bachelor of Computer Applications (Honors with Research).",
     icon: FaUniversity,
   },
 ];
