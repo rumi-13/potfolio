@@ -18,10 +18,13 @@ function App() {
         <Route index element={<Home />} />
         <Route path="Home" element={<Home />} />
         <Route path="Skills" element={<Skills />} />
-        <Route path="Education" element={<Education/>}/>
-         <Route path="About" element={<About />} />
+        <Route path="Education" element={<Education />} />
+        <Route path="About" element={<About />} />
       </Route>
-    )
+    ),
+    {
+      basename: "/portfolio",   // ✅ THIS FIXES YOUR ERROR
+    }
   );
 
   return <RouterProvider router={router} />;

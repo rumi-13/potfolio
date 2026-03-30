@@ -1,5 +1,5 @@
 import { FaGithub } from "react-icons/fa";
-import heroimg from "../assets/sticker.webp";
+import heroimg from "../assets/rumi-img.png";
 
 const Hero = () => {
   return (
