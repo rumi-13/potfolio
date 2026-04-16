@@ -21,10 +21,7 @@ function App() {
         <Route path="Education" element={<Education />} />
         <Route path="About" element={<About />} />
       </Route>,
-    ),
-    {
-      basename: "/portfolio", // 🔥 ADD THIS
-    },
+    )
   );
 
   return <RouterProvider router={router} />;
