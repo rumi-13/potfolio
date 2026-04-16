@@ -2,12 +2,17 @@ import atlas from "../assets/atlas.png";
 import ustream from "../assets/ustream.png";
 import tasktracker from "../assets/tasktracker.png";
 import homigo from "../assets/homigo.png"
-
+import oct from "../assets/oct-analysis.png"
 const projects = [
    {
     img: homigo,
     title: "Homigo",
     liveLink: "https://homigo-386u.onrender.com/",
+  },
+  {
+    img: oct,
+    title: "Retinal OCT Analysis",
+    liveLink: "https://github.com/rumi-13/retinal-oct-analysis"
   },
   {
     img: atlas,
@@ -41,7 +46,7 @@ const Projects = () => {
             <img
               src={project.img}
               alt={project.title}
-              className="w-full h-36 object-cover rounded-lg mb-3"
+              className="w-full h-36 object-fill rounded-lg mb-3"
             />
             <h3 className="font-semibold text-lg mb-2">{project.title}</h3>
             <a
