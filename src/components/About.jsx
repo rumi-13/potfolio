@@ -1,5 +1,5 @@
 import { FaChalkboardTeacher, FaFeather } from "react-icons/fa";
-import heroimg from "../assets/sticker.webp";
+import heroimg from "../assets/rumi.png";
 
 const About = () => {
   return (
@@ -17,11 +17,11 @@ const About = () => {
           </div>
 
           {/* Profile Image */}
-          <div className="relative w-64 h-64 rounded-full overflow-hidden shadow-lg ring-4 ring-purple-300 dark:ring-purple-400">
+          <div className="relative w-64 h-64 rounded-full overflow-hidden shadow-lg ring-4 ring-purple-300 dark:ring-purple-400 flex items-center justify-center">
             <img
               src={heroimg}
               alt="Asgar Rashid Portrait"
-              className="w-full h-full relative pl-8 top-3 object-cover transition-transform duration-300 hover:scale-105"
+              className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
             />
           </div>
         </div>
