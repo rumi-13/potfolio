@@ -78,7 +78,12 @@ const Certifications = () => {
               className="group relative bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 ring-1 ring-slate-200 dark:ring-slate-700 flex flex-col"
             >
               {/* Image Container */}
-              <div className="relative aspect-[4/3] overflow-hidden">
+              <a 
+                href={cert.image} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="relative aspect-[4/3] overflow-hidden block"
+              >
                 <img
                   src={cert.image}
                   alt={cert.title}
@@ -87,7 +92,7 @@ const Certifications = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                   <span className="text-white text-sm font-medium">View Certificate</span>
                 </div>
-              </div>
+              </a>
 
               {/* Content */}
               <div className="p-6 flex-grow flex flex-col justify-between space-y-3">
