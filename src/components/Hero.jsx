@@ -1,5 +1,5 @@
 import { FaGithub } from "react-icons/fa";
-import heroimg from "../assets/sticker.webp";
+import heroimg from "../assets/rumi.png";
 
 const Hero = () => {
   return (
@@ -40,11 +40,11 @@ const Hero = () => {
             <div className="absolute -z-10 w-64 h-64 lg:w-80 lg:h-80 bg-gradient-to-br from-yellow-300 to-orange-300 dark:from-yellow-500 dark:to-orange-500 rounded-full blur-2xl opacity-25 dark:opacity-20 translate-x-8 translate-y-8"></div>
 
             {/* Profile Image Container */}
-            <div className="relative w-72 h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-96 rounded-full border-4 border-blue-200 dark:border-yellow-300 shadow-lg dark:shadow-xl pl-10 ring-4 ring-blue-100 dark:ring-yellow-200 overflow-hidden group">
+            <div className="relative w-72 h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-96 rounded-full border-4 border-blue-200 dark:border-yellow-300 shadow-lg dark:shadow-xl ring-4 ring-blue-100 dark:ring-yellow-200 overflow-hidden group flex items-center justify-center">
               <img
                 src={heroimg}
                 alt="Profile"
-                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 relative top-3"
+                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
               />
               <div className="absolute inset-0 rounded-full ring-2 ring-blue-300 dark:ring-yellow-300 opacity-50 group-hover:opacity-70 transition-opacity duration-300"></div>
             </div>
