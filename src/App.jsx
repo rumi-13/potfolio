@@ -10,6 +10,7 @@ import Skills from "./components/Skills";
 import Home from "./components/Home";
 import Education from "./components/Education";
 import About from "./components/About";
+import Certifications from "./components/Certifications";
 
 function App() {
   const router = createBrowserRouter(
@@ -19,6 +20,7 @@ function App() {
         <Route path="Home" element={<Home />} />
         <Route path="Skills" element={<Skills />} />
         <Route path="Education" element={<Education />} />
+        <Route path="Certifications" element={<Certifications />} />
         <Route path="About" element={<About />} />
       </Route>,
     )
