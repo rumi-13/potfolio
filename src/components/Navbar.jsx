@@ -5,7 +5,7 @@ import { useDarkMode } from "../DarkModeContext";
 import logo from "../assets/logo.png"
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const navItems = ["Home", "About", "Skills", "Education", "Certifications", "Contact"];
+  const navItems = ["Home", "About", "Skills", "Projects", "Education", "Certifications", "Contact"];
   const { darkMode, toggleDarkMode } = useDarkMode();
 
   return (
