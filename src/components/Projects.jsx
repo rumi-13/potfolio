@@ -3,7 +3,13 @@ import ustream from "../assets/ustream.png";
 import tasktracker from "../assets/tasktracker.png";
 import homigo from "../assets/homigo.png"
 import oct from "../assets/oct-analysis.png"
+import feasty from "../assets/feasty.png"
 const projects = [
+    {
+      img: feasty,
+      title: "Feasty",
+      liveLink: "https://feasty-1.onrender.com/"
+    },
    {
     img: homigo,
     title: "Homigo",
