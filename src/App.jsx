@@ -17,11 +17,11 @@ function App() {
     createRoutesFromElements(
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="Home" element={<Home />} />
-        <Route path="Skills" element={<Skills />} />
-        <Route path="Education" element={<Education />} />
-        <Route path="Certifications" element={<Certifications />} />
-        <Route path="About" element={<About />} />
+        <Route path="home" element={<Home />} />
+        <Route path="skills" element={<Skills />} />
+        <Route path="education" element={<Education />} />
+        <Route path="certifications" element={<Certifications />} />
+        <Route path="about" element={<About />} />
       </Route>,
     )
   );
