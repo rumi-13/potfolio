@@ -13,13 +13,13 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 font-[Poppins]">
         <div className="flex justify-between items-center h-16 sm:h-18 lg:h-20">
           {/* Logo image */}
-          <div className="flex items-center">
+          <NavLink to="/" className="flex items-center">
             <img
-              src= {logo}
+              src={logo}
               alt="logo"
-              className="h-12 w-auto sm:h-14 lg:h-16 transition-all duration-200"
+              className="h-12 w-auto sm:h-14 lg:h-16 transition-all duration-200 hover:scale-105"
             />
-          </div>
+          </NavLink>
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-8 lg:space-x-10">
