@@ -1,5 +1,6 @@
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaDownload } from "react-icons/fa";
 import heroimg from "../assets/rumi.png";
+import resume from "../assets/resume/Asgar_Rashid_Resume-MERN.pdf";
 
 const Hero = () => {
   return (
@@ -20,15 +21,23 @@ const Hero = () => {
               </h2>
             </div>
 
-            <div className="pt-4">
+            <div className="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
               <a
                 href="https://github.com/rumi-13"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-x-3 bg-blue-600 dark:bg-yellow-500 text-white dark:text-slate-900 px-6 py-3 lg:px-8 lg:py-4 rounded-2xl shadow-md dark:shadow-lg ring-1 ring-blue-100 dark:ring-yellow-400 hover:scale-105 hover:shadow-lg dark:hover:shadow-xl transition-all duration-200 font-medium text-base lg:text-lg"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-x-3 bg-blue-600 dark:bg-yellow-500 text-white dark:text-slate-900 px-6 py-3 lg:px-8 lg:py-4 rounded-2xl shadow-md dark:shadow-lg ring-1 ring-blue-100 dark:ring-yellow-400 hover:scale-105 hover:shadow-lg dark:hover:shadow-xl transition-all duration-200 font-medium text-base lg:text-lg"
               >
                 <FaGithub className="text-lg lg:text-xl" />
                 GitHub Profile
+              </a>
+              <a
+                href={resume}
+                download="Asgar_Rashid_Resume.pdf"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-x-3 bg-white dark:bg-slate-800 text-blue-600 dark:text-yellow-300 border-2 border-blue-600 dark:border-yellow-300 px-6 py-3 lg:px-8 lg:py-4 rounded-2xl shadow-md hover:scale-105 hover:bg-blue-50 dark:hover:bg-slate-700 transition-all duration-200 font-medium text-base lg:text-lg"
+              >
+                <FaDownload className="text-lg lg:text-xl" />
+                Download Resume
               </a>
             </div>
           </div>
