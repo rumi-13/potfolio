@@ -4,6 +4,8 @@ import tasktracker from "../assets/tasktracker.png";
 import homigo from "../assets/homigo.png"
 import oct from "../assets/oct-analysis.png"
 import feasty from "../assets/feasty.png"
+import spice_and_roll from "../assets/spice_and_roll.png"
+import { title } from "framer-motion/client";
 const projects = [
     {
       img: feasty,
@@ -13,12 +15,17 @@ const projects = [
    {
     img: homigo,
     title: "Homigo",
-    liveLink: "https://homigo-386u.onrender.com/",
+    liveLink: "https://homigo-386u.onrender.com/"
   },
   {
     img: oct,
     title: "Retinal OCT Analysis",
     liveLink: "https://github.com/rumi-13/retinal-oct-analysis"
+  },
+  {
+    img: spice_and_roll,
+    title: "Spice & Roll",
+    liveLink: "https://spice-and-scroll.vercel.app/"
   },
   {
     img: atlas,
